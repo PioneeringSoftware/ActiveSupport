@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "783545EA13EA64C50049385C"
                BuildableName = "ActiveSupportKit.framework"
-               BlueprintName = "ActiveSupportKitFramework"
+               BlueprintName = "ActiveSupportKit"
                ReferencedContainer = "container:ActiveSupportKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,7 +30,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7835460213EA64C50049385C"
                BuildableName = "ActiveSupportKitFrameworkTests.octest"
-               BlueprintName = "ActiveSupportKitFrameworkTests"
+               BlueprintName = "ActiveSupportKitTests"
                ReferencedContainer = "container:ActiveSupportKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,7 +48,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7835460213EA64C50049385C"
                BuildableName = "ActiveSupportKitFrameworkTests.octest"
-               BlueprintName = "ActiveSupportKitFrameworkTests"
+               BlueprintName = "ActiveSupportKitTests"
                ReferencedContainer = "container:ActiveSupportKit.xcodeproj">
             </BuildableReference>
          </TestableReference>

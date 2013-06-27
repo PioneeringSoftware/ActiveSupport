@@ -263,9 +263,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		783545EA13EA64C50049385C /* ActiveSupportKitFramework */ = {
+		783545EA13EA64C50049385C /* ActiveSupportKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitFramework" */;
+			buildConfigurationList = 7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKit" */;
 			buildPhases = (
 				783545E613EA64C50049385C /* Sources */,
 				783545E713EA64C50049385C /* Frameworks */,
@@ -276,14 +276,14 @@
 			);
 			dependencies = (
 			);
-			name = ActiveSupportKitFramework;
+			name = ActiveSupportKit;
 			productName = ActiveSupportKit;
 			productReference = 783545EB13EA64C50049385C /* ActiveSupportKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7835460213EA64C50049385C /* ActiveSupportKitFrameworkTests */ = {
+		7835460213EA64C50049385C /* ActiveSupportKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitFrameworkTests" */;
+			buildConfigurationList = 7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitTests" */;
 			buildPhases = (
 				783545FE13EA64C50049385C /* Sources */,
 				783545FF13EA64C50049385C /* Frameworks */,
@@ -295,7 +295,7 @@
 			dependencies = (
 				7835460813EA64C50049385C /* PBXTargetDependency */,
 			);
-			name = ActiveSupportKitFrameworkTests;
+			name = ActiveSupportKitTests;
 			productName = ActiveSupportKitTests;
 			productReference = 7835460313EA64C50049385C /* ActiveSupportKitFrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -321,8 +321,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				783545EA13EA64C50049385C /* ActiveSupportKitFramework */,
-				7835460213EA64C50049385C /* ActiveSupportKitFrameworkTests */,
+				783545EA13EA64C50049385C /* ActiveSupportKit */,
+				7835460213EA64C50049385C /* ActiveSupportKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -399,7 +399,7 @@
 /* Begin PBXTargetDependency section */
 		7835460813EA64C50049385C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 783545EA13EA64C50049385C /* ActiveSupportKitFramework */;
+			target = 783545EA13EA64C50049385C /* ActiveSupportKit */;
 			targetProxy = 7835460713EA64C50049385C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitFramework" */ = {
+		7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7835461613EA64C50049385C /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitFrameworkTests" */ = {
+		7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7835461913EA64C50049385C /* Debug */,
