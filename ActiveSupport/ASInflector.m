@@ -1,4 +1,4 @@
-// ActiveSupportKit ASInflector.m
+// ActiveSupport ASInflector.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

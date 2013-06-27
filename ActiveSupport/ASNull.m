@@ -1,4 +1,4 @@
-// ActiveSupportKit ASNull.m
+// ActiveSupport ASNull.m
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

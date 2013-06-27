@@ -1,4 +1,4 @@
-// ActiveSupportKit ASJSON.m
+// ActiveSupport ASJSON.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

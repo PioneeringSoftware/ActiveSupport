@@ -1,4 +1,4 @@
-// ActiveSupportKit ActiveSupportKitTests.m
+// ActiveSupport ActiveSupportTests.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,14 +22,14 @@
 //
 //------------------------------------------------------------------------------
 
-#import "ActiveSupportKitTests.h"
-#import <ActiveSupportKit/ActiveSupportKit.h>
+#import "ActiveSupportTests.h"
+#import <ActiveSupport/ActiveSupport.h>
 
-@implementation ActiveSupportKitTests
+@implementation ActiveSupportTests
 
 - testVersioning
 {
-	STAssertEquals(kActiveSupportKitVersionNumber, 1.0, nil);
+	STAssertEquals(kActiveSupportVersionNumber, 1.0, nil);
 }
 
 - (void)testCamelize

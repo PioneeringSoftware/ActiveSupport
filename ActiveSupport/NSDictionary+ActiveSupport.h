@@ -1,4 +1,4 @@
-// ActiveSupportKit NSDictionary+ActiveSupport.h
+// ActiveSupport NSDictionary+ActiveSupport.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

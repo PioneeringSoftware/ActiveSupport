@@ -1,4 +1,4 @@
-// ActiveSupportKit EncodingTests.m
+// ActiveSupport EncodingTests.m
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -24,7 +24,7 @@
 
 #import "EncodingTests.h"
 
-#import <ActiveSupportKit/ActiveSupportKit.h>
+#import <ActiveSupport/ActiveSupport.h>
 
 @implementation EncodingTests
 

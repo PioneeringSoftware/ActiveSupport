@@ -1,4 +1,4 @@
-// ActiveSupportKit ActiveSupportKit.h
+// ActiveSupport ActiveSupport.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,19 +22,19 @@
 //
 //------------------------------------------------------------------------------
 
-#import <ActiveSupportKit/ASJSON.h>
-#import <ActiveSupportKit/ASReplacementStringForResults.h>
-#import <ActiveSupportKit/ASInflectorMethods.h>
-#import <ActiveSupportKit/ASInflector.h>
-#import <ActiveSupportKit/ASRFC3339.h>
-#import <ActiveSupportKit/ASRFC2822.h>
-#import <ActiveSupportKit/ASNull.h>
+#import <ActiveSupport/ASJSON.h>
+#import <ActiveSupport/ASReplacementStringForResults.h>
+#import <ActiveSupport/ASInflectorMethods.h>
+#import <ActiveSupport/ASInflector.h>
+#import <ActiveSupport/ASRFC3339.h>
+#import <ActiveSupport/ASRFC2822.h>
+#import <ActiveSupport/ASNull.h>
 
 // categories
-#import <ActiveSupportKit/NSObject+ActiveSupport.h>
-#import <ActiveSupportKit/NSArray+ActiveSupport.h>
-#import <ActiveSupportKit/NSDictionary+ActiveSupport.h>
-#import <ActiveSupportKit/NSRegularExpression+ActiveSupport.h>
-#import <ActiveSupportKit/NSDateFormatter+ActiveSupport.h>
+#import <ActiveSupport/NSObject+ActiveSupport.h>
+#import <ActiveSupport/NSArray+ActiveSupport.h>
+#import <ActiveSupport/NSDictionary+ActiveSupport.h>
+#import <ActiveSupport/NSRegularExpression+ActiveSupport.h>
+#import <ActiveSupport/NSDateFormatter+ActiveSupport.h>
 
-#import <ActiveSupportKit/Versioning.h>
+#import <ActiveSupport/Versioning.h>

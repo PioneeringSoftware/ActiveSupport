@@ -1,4 +1,4 @@
-/* ActiveSupportKit ASReplacementStringForResults.m
+/* ActiveSupport ASReplacementStringForResults.m
  *
  * Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *

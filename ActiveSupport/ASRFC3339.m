@@ -1,4 +1,4 @@
-/* ActiveSupportKit ASRFC3339.m
+/* ActiveSupport ASRFC3339.m
  *
  * Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *

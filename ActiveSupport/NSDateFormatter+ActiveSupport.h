@@ -1,4 +1,4 @@
-// ActiveSupportKit NSDateFormatter+ActiveSupport.h
+// ActiveSupport NSDateFormatter+ActiveSupport.h
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

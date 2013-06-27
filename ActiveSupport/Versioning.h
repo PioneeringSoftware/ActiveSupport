@@ -1,4 +1,4 @@
-/* ActiveSupportKit Versioning.h
+/* ActiveSupport Versioning.h
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -24,8 +24,8 @@
 
 #import <Foundation/Foundation.h>
 
-extern const unsigned char kActiveSupportKitVersionString[];
-extern const double kActiveSupportKitVersionNumber;
+extern const unsigned char kActiveSupportVersionString[];
+extern const double kActiveSupportVersionNumber;
 
 /**
  * Answers the current Apple-generic versioning-formatted version string. The
@@ -33,4 +33,4 @@ extern const double kActiveSupportKitVersionNumber;
  * newlines. Note that the raw C-based version string contrastingly has a single
  * terminating newline character.
  */
-NSString *ActiveSupportKitVersionString(void);
+NSString *ActiveSupportVersionString(void);

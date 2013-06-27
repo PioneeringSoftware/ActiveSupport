@@ -1,4 +1,4 @@
-/* ActiveSupportKit Versioning.m
+/* ActiveSupport Versioning.m
  *
  * Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -24,7 +24,7 @@
 
 #import "Versioning.h"
 
-NSString *ActiveSupportKitVersionString()
+NSString *ActiveSupportVersionString()
 {
 	// The implementation assumes that the raw C-language version string
 	// terminates with null. It also trims assuming that the very last character
@@ -32,7 +32,7 @@ NSString *ActiveSupportKitVersionString()
 	static NSString *__strong versionString;
 	if (versionString == nil)
 	{
-		versionString = [[NSString stringWithCString:(const char *)kActiveSupportKitVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+		versionString = [[NSString stringWithCString:(const char *)kActiveSupportVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 		atexit_b(^(void) {
 			versionString = nil;
 		});

@@ -1,4 +1,4 @@
-// ActiveSupportKit ASDateFormatter.h
+// ActiveSupport ASDateFormatter.h
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

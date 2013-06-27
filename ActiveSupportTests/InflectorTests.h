@@ -1,4 +1,4 @@
-// ActiveSupportKit InflectorTests.h
+// ActiveSupport InflectorTests.h
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

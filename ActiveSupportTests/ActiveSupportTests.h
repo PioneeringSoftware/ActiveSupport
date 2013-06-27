@@ -1,4 +1,4 @@
-// ActiveSupportKit ActiveSupportKitTests.h
+// ActiveSupport ActiveSupportTests.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -24,6 +24,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface ActiveSupportKitTests : SenTestCase
+@interface ActiveSupportTests : SenTestCase
 
 @end

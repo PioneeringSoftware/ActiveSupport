@@ -1,4 +1,4 @@
-// ActiveSupportKit EncodingTests.h
+// ActiveSupport EncodingTests.h
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

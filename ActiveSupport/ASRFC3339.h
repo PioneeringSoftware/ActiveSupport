@@ -1,4 +1,4 @@
-/* ActiveSupportKit ASRFC3339.h
+/* ActiveSupport ASRFC3339.h
  *
  * Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -22,7 +22,7 @@
  *
  ******************************************************************************/
 
-#import <ActiveSupportKit/ASDateFormatter.h>
+#import <ActiveSupport/ASDateFormatter.h>
 
 ASDateFormatter *ASRFC3339DateFormatter(void);
 

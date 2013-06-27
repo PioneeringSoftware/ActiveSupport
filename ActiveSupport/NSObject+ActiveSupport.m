@@ -1,4 +1,4 @@
-// ActiveSupportKit NSObject+ActiveSupport.m
+// ActiveSupport NSObject+ActiveSupport.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

@@ -1,4 +1,4 @@
-// ActiveSupportKit NSArray+ActiveSupport.h
+// ActiveSupport NSArray+ActiveSupport.h
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

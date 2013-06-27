@@ -1,4 +1,4 @@
-// ActiveSupportKit NSRegularExpression+ActiveSupport.m
+// ActiveSupport NSRegularExpression+ActiveSupport.m
 //
 // Copyright © 2011–2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //

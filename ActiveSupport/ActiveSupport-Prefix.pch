@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'ActiveSupportKit' target in the 'ActiveSupportKit' project
+// Prefix header for all source files of the 'ActiveSupport' target in the 'ActiveSupport' project
 //
 
 #ifdef __OBJC__

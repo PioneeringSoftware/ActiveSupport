@@ -1,4 +1,4 @@
-// ActiveSupportKit ASRFC2822.h
+// ActiveSupport ASRFC2822.h
 //
 // Copyright © 2012, 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,7 +22,7 @@
 //
 //------------------------------------------------------------------------------
 
-#import <ActiveSupportKit/ASDateFormatter.h>
+#import <ActiveSupport/ASDateFormatter.h>
 
 /**
  * See <a href="http://www.ietf.org/rfc/rfc2822.txt">Request for Comments
