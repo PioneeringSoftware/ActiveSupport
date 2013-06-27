@@ -13,10 +13,10 @@
 		7832704414115D3400ECCE7D /* NSArray+ActiveSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832704114115D3400ECCE7D /* NSArray+ActiveSupport.m */; };
 		783545F913EA64C50049385C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 783545F713EA64C50049385C /* InfoPlist.strings */; };
 		7835460513EA64C50049385C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7835460413EA64C50049385C /* SenTestingKit.framework */; };
-		7835460913EA64C50049385C /* ActiveSupportKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783545EB13EA64C50049385C /* ActiveSupportKit.framework */; };
+		7835460913EA64C50049385C /* ActiveSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783545EB13EA64C50049385C /* ActiveSupport.framework */; };
 		7835460F13EA64C50049385C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7835460D13EA64C50049385C /* InfoPlist.strings */; };
-		7835461213EA64C50049385C /* ActiveSupportKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835461113EA64C50049385C /* ActiveSupportKitTests.m */; };
-		7835461E13EA67C50049385C /* ActiveSupportKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835461B13EA67C50049385C /* ActiveSupportKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7835461213EA64C50049385C /* ActiveSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835461113EA64C50049385C /* ActiveSupportTests.m */; };
+		7835461E13EA67C50049385C /* ActiveSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835461B13EA67C50049385C /* ActiveSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7835461F13EA67C50049385C /* ASInflectorMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835461C13EA67C50049385C /* ASInflectorMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7835462013EA67C50049385C /* ASInflectorMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835461D13EA67C50049385C /* ASInflectorMethods.m */; };
 		7835BC751414B8E600CC4B56 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC731414B8E600CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,17 +63,17 @@
 		7832703714115C6F00ECCE7D /* NSObject+ActiveSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ActiveSupport.m"; sourceTree = "<group>"; };
 		7832704014115D3400ECCE7D /* NSArray+ActiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ActiveSupport.h"; sourceTree = "<group>"; };
 		7832704114115D3400ECCE7D /* NSArray+ActiveSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ActiveSupport.m"; sourceTree = "<group>"; };
-		783545EB13EA64C50049385C /* ActiveSupportKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveSupportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		783545F613EA64C50049385C /* ActiveSupportKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveSupportKit-Info.plist"; sourceTree = "<group>"; };
+		783545EB13EA64C50049385C /* ActiveSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783545F613EA64C50049385C /* ActiveSupport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveSupport-Info.plist"; sourceTree = "<group>"; };
 		783545F813EA64C50049385C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		783545FA13EA64C50049385C /* ActiveSupportKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActiveSupportKit-Prefix.pch"; sourceTree = "<group>"; };
-		7835460313EA64C50049385C /* ActiveSupportKitFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveSupportKitFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		783545FA13EA64C50049385C /* ActiveSupport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActiveSupport-Prefix.pch"; sourceTree = "<group>"; };
+		7835460313EA64C50049385C /* ActiveSupportTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveSupportTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7835460413EA64C50049385C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7835460C13EA64C50049385C /* ActiveSupportKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveSupportKitTests-Info.plist"; sourceTree = "<group>"; };
+		7835460C13EA64C50049385C /* ActiveSupportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveSupportTests-Info.plist"; sourceTree = "<group>"; };
 		7835460E13EA64C50049385C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7835461013EA64C50049385C /* ActiveSupportKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveSupportKitTests.h; sourceTree = "<group>"; };
-		7835461113EA64C50049385C /* ActiveSupportKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveSupportKitTests.m; sourceTree = "<group>"; };
-		7835461B13EA67C50049385C /* ActiveSupportKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveSupportKit.h; sourceTree = "<group>"; };
+		7835461013EA64C50049385C /* ActiveSupportTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveSupportTests.h; sourceTree = "<group>"; };
+		7835461113EA64C50049385C /* ActiveSupportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveSupportTests.m; sourceTree = "<group>"; };
+		7835461B13EA67C50049385C /* ActiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveSupport.h; sourceTree = "<group>"; };
 		7835461C13EA67C50049385C /* ASInflectorMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInflectorMethods.h; sourceTree = "<group>"; };
 		7835461D13EA67C50049385C /* ASInflectorMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInflectorMethods.m; sourceTree = "<group>"; };
 		7835BC731414B8E600CC4B56 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7835460513EA64C50049385C /* SenTestingKit.framework in Frameworks */,
-				7835460913EA64C50049385C /* ActiveSupportKit.framework in Frameworks */,
+				7835460913EA64C50049385C /* ActiveSupport.framework in Frameworks */,
 				78719ACF141542CE00D102A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				783545F413EA64C50049385C /* ActiveSupport */,
-				7835460A13EA64C50049385C /* ActiveSupportKitTests */,
+				7835460A13EA64C50049385C /* ActiveSupportTests */,
 				783545ED13EA64C50049385C /* Frameworks */,
 				783545EC13EA64C50049385C /* Products */,
 			);
@@ -140,8 +140,8 @@
 		783545EC13EA64C50049385C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				783545EB13EA64C50049385C /* ActiveSupportKit.framework */,
-				7835460313EA64C50049385C /* ActiveSupportKitFrameworkTests.octest */,
+				783545EB13EA64C50049385C /* ActiveSupport.framework */,
+				7835460313EA64C50049385C /* ActiveSupportTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		783545F413EA64C50049385C /* ActiveSupport */ = {
 			isa = PBXGroup;
 			children = (
-				7835461B13EA67C50049385C /* ActiveSupportKit.h */,
+				7835461B13EA67C50049385C /* ActiveSupport.h */,
 				7832703614115C6F00ECCE7D /* NSObject+ActiveSupport.h */,
 				7832703714115C6F00ECCE7D /* NSObject+ActiveSupport.m */,
 				7832704014115D3400ECCE7D /* NSArray+ActiveSupport.h */,
@@ -201,34 +201,33 @@
 		783545F513EA64C50049385C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				783545F613EA64C50049385C /* ActiveSupportKit-Info.plist */,
+				783545F613EA64C50049385C /* ActiveSupport-Info.plist */,
 				783545F713EA64C50049385C /* InfoPlist.strings */,
-				783545FA13EA64C50049385C /* ActiveSupportKit-Prefix.pch */,
+				783545FA13EA64C50049385C /* ActiveSupport-Prefix.pch */,
 				7835BC731414B8E600CC4B56 /* Versioning.h */,
 				7835BC741414B8E600CC4B56 /* Versioning.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7835460A13EA64C50049385C /* ActiveSupportKitTests */ = {
+		7835460A13EA64C50049385C /* ActiveSupportTests */ = {
 			isa = PBXGroup;
 			children = (
-				7835461013EA64C50049385C /* ActiveSupportKitTests.h */,
-				7835461113EA64C50049385C /* ActiveSupportKitTests.m */,
+				7835461013EA64C50049385C /* ActiveSupportTests.h */,
+				7835461113EA64C50049385C /* ActiveSupportTests.m */,
 				788DB0F614D323CA00AF938D /* InflectorTests.h */,
 				788DB0F714D323CA00AF938D /* InflectorTests.m */,
 				78D9883A14E9166D0081C350 /* EncodingTests.h */,
 				78D9883B14E9166D0081C350 /* EncodingTests.m */,
 				7835460B13EA64C50049385C /* Supporting Files */,
 			);
-			name = ActiveSupportKitTests;
 			path = ActiveSupportTests;
 			sourceTree = "<group>";
 		};
 		7835460B13EA64C50049385C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7835460C13EA64C50049385C /* ActiveSupportKitTests-Info.plist */,
+				7835460C13EA64C50049385C /* ActiveSupportTests-Info.plist */,
 				7835460D13EA64C50049385C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -241,7 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7835461E13EA67C50049385C /* ActiveSupportKit.h in Headers */,
+				7835461E13EA67C50049385C /* ActiveSupport.h in Headers */,
 				7835461F13EA67C50049385C /* ASInflectorMethods.h in Headers */,
 				78E0B180140D320C004E1041 /* ASInflector.h in Headers */,
 				7832703814115C6F00ECCE7D /* NSObject+ActiveSupport.h in Headers */,
@@ -263,9 +262,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		783545EA13EA64C50049385C /* ActiveSupportKit */ = {
+		783545EA13EA64C50049385C /* ActiveSupport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKit" */;
+			buildConfigurationList = 7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupport" */;
 			buildPhases = (
 				783545E613EA64C50049385C /* Sources */,
 				783545E713EA64C50049385C /* Frameworks */,
@@ -276,14 +275,14 @@
 			);
 			dependencies = (
 			);
-			name = ActiveSupportKit;
+			name = ActiveSupport;
 			productName = ActiveSupportKit;
-			productReference = 783545EB13EA64C50049385C /* ActiveSupportKit.framework */;
+			productReference = 783545EB13EA64C50049385C /* ActiveSupport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7835460213EA64C50049385C /* ActiveSupportKitTests */ = {
+		7835460213EA64C50049385C /* ActiveSupportTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitTests" */;
+			buildConfigurationList = 7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportTests" */;
 			buildPhases = (
 				783545FE13EA64C50049385C /* Sources */,
 				783545FF13EA64C50049385C /* Frameworks */,
@@ -295,9 +294,9 @@
 			dependencies = (
 				7835460813EA64C50049385C /* PBXTargetDependency */,
 			);
-			name = ActiveSupportKitTests;
+			name = ActiveSupportTests;
 			productName = ActiveSupportKitTests;
-			productReference = 7835460313EA64C50049385C /* ActiveSupportKitFrameworkTests.octest */;
+			productReference = 7835460313EA64C50049385C /* ActiveSupportTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -321,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				783545EA13EA64C50049385C /* ActiveSupportKit */,
-				7835460213EA64C50049385C /* ActiveSupportKitTests */,
+				783545EA13EA64C50049385C /* ActiveSupport */,
+				7835460213EA64C50049385C /* ActiveSupportTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7835461213EA64C50049385C /* ActiveSupportKitTests.m in Sources */,
+				7835461213EA64C50049385C /* ActiveSupportTests.m in Sources */,
 				788DB0FD14D3244A00AF938D /* InflectorTests.m in Sources */,
 				78D9883C14E9166D0081C350 /* EncodingTests.m in Sources */,
 			);
@@ -399,7 +398,7 @@
 /* Begin PBXTargetDependency section */
 		7835460813EA64C50049385C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 783545EA13EA64C50049385C /* ActiveSupportKit */;
+			target = 783545EA13EA64C50049385C /* ActiveSupport */;
 			targetProxy = 7835460713EA64C50049385C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,12 +492,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 163.41;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRailsKit.framework/Versions/Current/Frameworks";
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveSupportKit/ActiveSupportKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveSupportKit/ActiveSupportKit-Info.plist";
-				PRODUCT_NAME = ActiveSupportKit;
+				GCC_PREFIX_HEADER = "ActiveSupport/ActiveSupport-Prefix.pch";
+				INFOPLIST_FILE = "ActiveSupport/ActiveSupport-Info.plist";
+				PRODUCT_NAME = ActiveSupport;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -509,12 +508,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 163.41;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRailsKit.framework/Versions/Current/Frameworks";
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveSupportKit/ActiveSupportKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveSupportKit/ActiveSupportKit-Info.plist";
-				PRODUCT_NAME = ActiveSupportKit;
+				GCC_PREFIX_HEADER = "ActiveSupport/ActiveSupport-Prefix.pch";
+				INFOPLIST_FILE = "ActiveSupport/ActiveSupport-Info.plist";
+				PRODUCT_NAME = ActiveSupport;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -525,8 +524,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveSupportKit/ActiveSupportKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveSupportKitTests/ActiveSupportKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "ActiveSupport/ActiveSupport-Prefix.pch";
+				INFOPLIST_FILE = "ActiveSupportTests/ActiveSupportTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -538,8 +537,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveSupportKit/ActiveSupportKit-Prefix.pch";
-				INFOPLIST_FILE = "ActiveSupportKitTests/ActiveSupportKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "ActiveSupport/ActiveSupport-Prefix.pch";
+				INFOPLIST_FILE = "ActiveSupportTests/ActiveSupportTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -557,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKit" */ = {
+		7835461513EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7835461613EA64C50049385C /* Debug */,
@@ -566,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportKitTests" */ = {
+		7835461813EA64C50049385C /* Build configuration list for PBXNativeTarget "ActiveSupportTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7835461913EA64C50049385C /* Debug */,
