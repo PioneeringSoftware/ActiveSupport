@@ -1,4 +1,4 @@
-// ActiveSupport ActiveSupport.xcconfig
+// ActiveSupport Versioning.xcconfig
 //
 // Copyright © 2013, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,4 +22,6 @@
 //
 //------------------------------------------------------------------------------
 
-#include "Versioning"
+CURRENT_PROJECT_VERSION = 163.41
+VERSION_INFO_PREFIX = k
+VERSIONING_SYSTEM = apple-generic

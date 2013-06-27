@@ -25,6 +25,9 @@
       location = "group:AppledocSettings.plist">
    </FileRef>
    <FileRef
+      location = "group:Versioning.xcconfig">
+   </FileRef>
+   <FileRef
       location = "group:ActiveSupportLib.xcodeproj">
    </FileRef>
    <FileRef
