@@ -102,6 +102,7 @@
 		78F3B50614175E5C005D6F5D /* NSRegularExpression+ActiveSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+ActiveSupport.m"; sourceTree = "<group>"; };
 		78F3B5551418CEB7005D6F5D /* ASJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ASJSON.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		78F3B5561418CEB7005D6F5D /* ASJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASJSON.m; sourceTree = "<group>"; };
+		78FB9DB0177CA6F6003245AA /* ActiveSupport.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ActiveSupport.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +206,7 @@
 				783545FA13EA64C50049385C /* ActiveSupport-Prefix.pch */,
 				7835BC731414B8E600CC4B56 /* Versioning.h */,
 				7835BC741414B8E600CC4B56 /* Versioning.m */,
+				78FB9DB0177CA6F6003245AA /* ActiveSupport.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -415,6 +417,7 @@
 /* Begin XCBuildConfiguration section */
 		7835461313EA64C50049385C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FB9DB0177CA6F6003245AA /* ActiveSupport.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -424,7 +427,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 163.41;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -443,13 +445,12 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = k;
 			};
 			name = Debug;
 		};
 		7835461413EA64C50049385C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FB9DB0177CA6F6003245AA /* ActiveSupport.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -459,7 +460,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 163.41;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -471,8 +471,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = k;
 			};
 			name = Release;
 		};
