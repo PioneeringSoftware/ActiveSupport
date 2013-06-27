@@ -195,7 +195,7 @@
 		783545DF13EA64C40049385C = {
 			isa = PBXGroup;
 			children = (
-				783545F413EA64C50049385C /* ActiveSupportKit */,
+				783545F413EA64C50049385C /* ActiveSupport */,
 				7835460A13EA64C50049385C /* ActiveSupportKitTests */,
 				783545ED13EA64C50049385C /* Frameworks */,
 				783545EC13EA64C50049385C /* Products */,
@@ -230,7 +230,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		783545F413EA64C50049385C /* ActiveSupportKit */ = {
+		783545F413EA64C50049385C /* ActiveSupport */ = {
 			isa = PBXGroup;
 			children = (
 				7835461B13EA67C50049385C /* ActiveSupportKit.h */,
@@ -262,7 +262,7 @@
 				788F9C1414D837F8000BA699 /* ASNull.m */,
 				783545F513EA64C50049385C /* Supporting Files */,
 			);
-			path = ActiveSupportKit;
+			path = ActiveSupport;
 			sourceTree = "<group>";
 		};
 		783545F513EA64C50049385C /* Supporting Files */ = {
@@ -288,7 +288,8 @@
 				78D9883B14E9166D0081C350 /* EncodingTests.m */,
 				7835460B13EA64C50049385C /* Supporting Files */,
 			);
-			path = ActiveSupportKitTests;
+			name = ActiveSupportKitTests;
+			path = ActiveSupportTests;
 			sourceTree = "<group>";
 		};
 		7835460B13EA64C50049385C /* Supporting Files */ = {
